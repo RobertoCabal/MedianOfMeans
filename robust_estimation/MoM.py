@@ -11,4 +11,4 @@ def MoM(x,k):
             means.append(y.mean())
         return np.median(means)
     except: 
-        print('Cant split with that k :(')
+        return 'Cant split with that k :('
